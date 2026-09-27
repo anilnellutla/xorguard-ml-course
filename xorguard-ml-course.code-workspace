@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "ML course",
+      "path": "."
+    },
+    {
+      "name": "xorguard-ml (the real lab)",
+      "path": "../xorguard-ml"
+    }
+  ],
+  "settings": {
+    "python.analysis.typeCheckingMode": "basic",
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.pytest_cache": true
+    },
+    "editor.rulers": [88]
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python"
+    ]
+  }
+}

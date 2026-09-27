@@ -1,0 +1,9 @@
+# Extra deps for the interactive notebook version of the course.
+# The .py lessons need none of this — see requirements.txt (numpy only).
+-r requirements.txt
+
+jupyterlab>=4.0      # or use the VSCode Jupyter extension instead
+ipykernel>=6.0
+nbformat>=5.9
+nbclient>=0.9        # only needed to re-execute/regenerate notebooks
+matplotlib>=3.7      # inline plots

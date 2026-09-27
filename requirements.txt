@@ -1,0 +1,6 @@
+# Core: every lesson runs with just this, exactly like the xorguard-ml repo.
+numpy>=1.26
+
+# Optional: lessons draw ASCII charts when this is absent, so it is not required.
+# Install it if you want real plots in a few lessons.
+matplotlib>=3.7
